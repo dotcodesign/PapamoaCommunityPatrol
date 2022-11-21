@@ -1,0 +1,500 @@
+/* Css Reset
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*Begining of design code*/
+
+* {
+    font-family: 'Karma', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.one {
+    background-image: url(screws1.jpg);
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.one img {
+    width: 20vw;
+    padding: 2vh;
+}
+
+.one h1 {
+  font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.one button a {
+    text-decoration: none;
+    color: white;
+}
+
+.one button {
+    margin-left: 5vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    padding: 5vh;
+    font-family: 'Karma', serif;
+    font-size: 1.5rem;
+    background-color: rgba(107,147,203,0.5);
+    border-color: transparent;
+    border-radius: 40px;
+    transition: all .5s ease;
+    color: white;
+    text-align: center;
+    outline: none;
+     box-shadow: 5px 20px 10px rgba(51,52,139,0.3);
+}
+.one button:hover {
+    color: #001F3F;
+    background-color: rgb(119,180,100);
+    box-shadow: 10px 30px 15px rgba(51,52,139,0.3);
+}
+
+
+.two {
+    background-color: rgb(51,52,139);
+    display: inline-block;
+    padding-bottom: 10vh;
+}
+
+.two img {
+    width: 30vw;
+    margin-left: 5vw;
+    float: left;
+      padding-top: 20vh;
+}
+
+
+.two h2 {
+    margin-top: 30vh;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    font-weight: 600;
+    width: 40vw;
+    margin-left: 50vw;
+}
+
+.two p {
+    margin-top: 10vh;
+    font-family: 'Karma', serif;
+    color: rgb(174, 203, 245);
+    padding-top: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 1.5rem;
+    line-height: 7vh;
+    text-align: center;
+}
+
+.two a {
+    text-decoration: none;
+    color: white;
+    transition: all .5s ease;
+}
+
+.two a:hover{
+    text-decoration: underline;
+    color: rgb(119,180,100);
+}
+
+
+.two ul li {
+    padding-top: 5vh;
+    display: inline-block;
+    float: left;
+    width: 30vw;
+    padding: 1vw;
+}
+
+.two ul li img {
+    border-radius: 20px;
+}
+
+.three {
+    background-image: linear-gradient(to right, rgb(107,147,203) , rgb(68,85,162));
+    display: inline-block;
+    width: 100%;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+.three img{
+    width: 45vw;
+    float: left;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.three ul{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(51,52,139);
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.three ul li {
+    font-family: 'Karma', serif;
+    color: white;
+    padding-top: 5vh;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-right: 5vw;
+    margin-left: 5vw;
+    font-weight: 400;
+}
+
+.four {
+    background-color: rgb(51,52,139);
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    display: inline-block;
+    width: 100%;
+}
+
+.four h2{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+.four iframe {
+    float: right;
+    margin-top: 10vh;
+    margin-right: 5vw;
+    border-radius: 10%;
+}
+
+.four p{
+    font-family: 'Karma', serif;
+    color: rgb(174, 203, 245);
+    padding-top: 20vh;
+    padding-left: 10vw;
+    margin-right: 10vw;
+    font-size: 1.5rem;
+    line-height: 7vh;
+}
+
+.four button {
+    width: 10vw;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    background: transparent;
+    border: transparent;
+    border-radius: 50%;
+    box-shadow: none;
+    transition: transform .5s ease-in-out;
+}
+
+.four button img {
+    border-radius: 50%;
+    height: 18vh;
+    width: 15vw;
+}
+
+.four button:hover{
+    transform: rotate(20deg);
+}
+
+.five {
+    background-color: rgb(119,180,100);
+    height: 60vh;
+}
+
+
+.five h2 {
+    padding-top: 10vh;
+     font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 10vh;
+}
+
+.five ul li{
+    background-color: rgb(119,180,100);
+    display: block; 
+    float: left;
+    padding: 1vh;
+    width: 14vw;
+}
+
+.six {
+     background-color: rgb(212, 245, 201);
+    display: inline-block;
+    width: 100%;
+}
+.six ul{
+    width: 100%;
+}
+
+.six ul li{
+    padding-top: 2.5vh;
+    float: left;
+    padding-left: 42vw;
+    align-content: center;
+    font-family: 'Karma', serif;
+    color: rgb(119,180,100);
+}
+
+.six img {
+    height: 8vh;
+     float: left
+}
+
+@media screen and (max-width: 767px) {
+     .one{
+        height: 80vh;
+    }
+    
+    .one img {
+        width: 30vw;
+    }
+   
+      .one button{
+          display: none;
+    }
+    
+
+    .one h1 {
+        width:80%;
+        font-size: 2.5rem;
+        padding-left: 5vw;
+        text-align: left;
+    }
+    
+    .two img {
+        display: none;
+    }
+    
+    .two h2 {
+        padding:0; 
+        padding-left: 15vw;
+        padding-top: 5vh;
+        margin: 0;
+        width: 80vw;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    .two p {
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: 1em;
+    }
+    
+    .three img {
+        margin-top: 0;
+        padding-top: 0;
+        float: none;
+         border-radius: 0px;
+        width: 100%;
+        padding-bottom: 10vh;
+    }
+    
+    
+    .three {
+        padding-top: 0;
+    }
+    
+    .three ul {
+        list-style: none;
+        font-size: 1em;
+        padding: 5vw;
+    }
+
+    .four iframe {
+        width: 100%;
+        margin-right: 0;
+        border-radius: 0;
+    }
+
+
+    .four p {
+        padding-top: 10vh;
+        font-size: 1em;
+    }
+    
+   .four button {
+    width: 25vw;
+        height: 20vh;
+    margin-top: 10vh;
+    margin-left: 15vw;
+    background: transparent;
+    border: transparent;
+    border-radius: 50%;
+    box-shadow: none;
+    transition: transform .5s ease-in-out;
+    }
+    
+    .four button img {
+    height: 12vh;
+        width: 30vw;
+    }
+    
+    .five h2{
+        font-size: 1.5em;
+    }
+   
+    .five ul li{
+    background-color: rgb(119,180,100);
+    display:grid; 
+    padding: 1vh;
+    width: 25vw;
+}
+    
+    
+    .six ul li{
+        float: none;
+        text-align: right;
+        padding-top: 5vh;
+        font-size: 0.8em;
+    }
+    .six img {
+        height: 15vh;
+    }
+}
+
+
+@media screen and (min-width: 768px)and (max-width: 1023px) {
+    .one{
+        height: 85vh;
+    }
+    .one img{
+        width:20vw;
+    }
+    
+    .one button{
+        margin-left: 0;
+        margin-left: 33vw;
+        margin-top: 2vh;
+    }
+    
+    .two img  {
+        display: none;
+    }
+    .two h2 {
+        margin: 0;
+        text-align: center;
+        width: 80vw;
+        padding-top: 10vh;
+        padding-right: 0;
+        margin-left: 10vw;
+    }
+    
+    .two p {
+        padding-top: 2vh; 
+    }
+    
+    .two ul li img{
+        display: inline-block;
+        border-radius: 0;
+    }
+    
+    .three ul li {
+    }
+    
+    .four iframe {
+        float: none;
+        width: 100%;
+        border-radius: 0px;
+    }
+    
+     .four button {
+    width: 25vw;
+        height: 20vh;
+    margin-top: 10vh;
+    margin-left: 15vw;
+    background: transparent;
+    border: transparent;
+    border-radius: 50%;
+    box-shadow: none;
+    transition: transform .5s ease-in-out;
+    }
+    
+    .four button img {
+    height: 20vh;
+        width: 15vw;
+    }
+    
+     .six ul li{
+        float: none;
+        text-align: right;
+        padding-top: 5vh;
+    }
+    .six img {
+        height: 15vh;
+    }
+}
+
+
